@@ -1,6 +1,6 @@
-# SQLiteMigrationManager.swift Example
+# SQLiteMigrationManager Example
 
-This is a sample project for SQLiteMigrationManager.swift
+This is a sample project for SQLiteMigrationManager
 
 ## Usage
 

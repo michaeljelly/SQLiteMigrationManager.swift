@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name         = "SQLiteMigrationManager.swift"
+  s.name         = "SQLiteMigrationManager"
   s.version      = "0.8.3"
   s.summary      = "Migration manager for SQLiteSwift"
   s.description  = <<-DESC
   Migration manager for SQLiteSwift, based on FMDBMigrationManager.
                    DESC
-  s.homepage     = "https://github.com/garriguv/SQLiteMigrationManager.swift"
+  s.homepage     = "https://github.com/garriguv/SQLiteMigrationManager"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Vincent Garrigues" => "vincent@garriguv.io" }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
   s.module_name  = 'SQLiteMigrationManager'
-  s.source       = { :git => "https://github.com/garriguv/SQLiteMigrationManager.swift.git", tag: s.version.to_s, submodules: true }
+  s.source       = { :git => "https://github.com/michaeljelly/SQLiteMigrationManager.git", tag: s.version.to_s, submodules: true }
   
   s.subspec 'standard' do |ss|
    ss.source_files = "Sources"

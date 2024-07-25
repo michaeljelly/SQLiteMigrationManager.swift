@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SQLiteMigrationManager.swift",
+    name: "SQLiteMigrationManager",
     products: [
         .library(name: "SQLiteMigrationManager", targets: ["SQLiteMigrationManager"])
     ],
@@ -14,7 +14,7 @@ let package = Package(
             name: "SQLiteMigrationManager",
             dependencies: ["SQLite"],
             path: "Sources",
-            sources: ["SQLiteMigrationManager.swift"]),
+            sources: ["SQLiteMigrationManager"]),
         .testTarget(
             name: "SQLiteMigrationManagerTests",
             dependencies: ["SQLiteMigrationManager"],

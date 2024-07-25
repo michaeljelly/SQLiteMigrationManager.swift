@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FD5BFCFC94877B8D96F1073 /* SQLiteMigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager.swift */; };
+		9FD5BFCFC94877B8D96F1073 /* SQLiteMigrationManager in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager */; };
 		CF1CEF2821DE7797009C3403 /* SQLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1CEF2721DE7797009C3403 /* SQLiteSwift.framework */; };
-		CF1CEF2921DE77D1009C3403 /* SQLiteMigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager.swift */; };
+		CF1CEF2921DE77D1009C3403 /* SQLiteMigrationManager in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager */; };
 		CFE35ECA21DE71980004E4E4 /* SQLiteMigrationManagerMacOs.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE35EC821DE71980004E4E4 /* SQLiteMigrationManagerMacOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA6A620219B0E680073DE4F /* SQLiteMigrationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6A61F219B0E680073DE4F /* SQLiteMigrationManagerTests.swift */; };
 		EBB2036F2205CCF9001B59FA /* SQLiteMigrationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE35EC621DE71980004E4E4 /* SQLiteMigrationManager.framework */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteMigrationManager.swift; sourceTree = "<group>"; };
+		9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteMigrationManager; sourceTree = "<group>"; };
 		CF1CEF2721DE7797009C3403 /* SQLiteSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLiteSwift.framework; path = Carthage/Build/Mac/SQLiteSwift.framework; sourceTree = "<group>"; };
 		CFE35EC621DE71980004E4E4 /* SQLiteMigrationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLiteMigrationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE35EC821DE71980004E4E4 /* SQLiteMigrationManagerMacOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteMigrationManagerMacOs.h; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		EBB2037A2205CE23001B59FA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager.swift */,
+				9FD5B054E651DC4BD08A8C8E /* SQLiteMigrationManager */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1CEF2921DE77D1009C3403 /* SQLiteMigrationManager.swift in Sources */,
+				CF1CEF2921DE77D1009C3403 /* SQLiteMigrationManager in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD5BFCFC94877B8D96F1073 /* SQLiteMigrationManager.swift in Sources */,
+				9FD5BFCFC94877B8D96F1073 /* SQLiteMigrationManager in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

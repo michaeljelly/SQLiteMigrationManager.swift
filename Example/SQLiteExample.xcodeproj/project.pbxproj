@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		9FD5BC96C91534D5E621B9F8 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		9FD5BE07FB875E0607313A2B /* SeedDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedDB.swift; sourceTree = "<group>"; };
-		BF700ED127178E0C00CD6576 /* SQLiteMigrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SQLiteMigrationManager.swift; path = ..; sourceTree = "<group>"; };
+		BF700ED127178E0C00CD6576 /* SQLiteMigrationManager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SQLiteMigrationManager; path = ..; sourceTree = "<group>"; };
 		EBD6C68D1C4E5315004270C5 /* SQLiteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6C6901C4E5315004270C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6C6921C4E5315004270C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		BF700ED027178E0C00CD6576 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				BF700ED127178E0C00CD6576 /* SQLiteMigrationManager.swift */,
+				BF700ED127178E0C00CD6576 /* SQLiteMigrationManager */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
