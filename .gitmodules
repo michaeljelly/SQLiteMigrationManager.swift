@@ -1,3 +1,3 @@
 [submodule "Carthage/Checkouts/SQLiteSwift"]
 	path = Carthage/Checkouts/SQLiteSwift
-	url = https://github.com/hosy/SQLiteSwift.git
+	url = https://github.com/hosy/SQLiteSwift
