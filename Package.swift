@@ -14,7 +14,7 @@ let package = Package(
       name: "SQLiteMigrationManager",
       dependencies: ["SQLiteSwift"],
       path: "Sources",
-      sources: ["SQLiteMigrationManager"]),
+      sources: ["SQLiteMigrationManager.swift"]),
     .testTarget(
       name: "SQLiteMigrationManagerTests",
       dependencies: ["SQLiteMigrationManager"],
