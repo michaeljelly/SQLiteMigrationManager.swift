@@ -6,24 +6,24 @@
 
 ## [0.8.2](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.8.2)
 
-* Update SQLite.swift to `0.14.1` (@orestesgaolin)
+* Update SQLiteSwift to `0.14.1` (@orestesgaolin)
 
 ## [0.8.1](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.8.1)
 
-* Update SQLite.swift to `0.13.3`.
+* Update SQLiteSwift to `0.13.3`.
 * Add subspec compatible with SQLCipher (@liyuan116)
 
 ## [0.8.0](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.8.0)
 
-* Update SQLite.swift to `0.13.0`.
+* Update SQLiteSwift to `0.13.0`.
 
 ## [0.7.0](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.7.0)
 
-* Update SQLite.swift to `0.12.0`. (@ypopovych)
+* Update SQLiteSwift to `0.12.0`. (@ypopovych)
 
 ## [0.6.0](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.6.0)
 
-* Update SQLite.swift to `0.11.6`.
+* Update SQLiteSwift to `0.11.6`.
 * Compatible with Xcode `10.2`.
 
 ## [0.5.0](https://github.com/garriguv/SQLiteMigrationManager.swift/releases/tag/0.5.0)

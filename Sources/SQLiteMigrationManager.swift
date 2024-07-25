@@ -1,16 +1,16 @@
 import Foundation
-import SQLite
+import SQLiteSwift
 
-private typealias Expression = SQLite.Expression
+private typealias Expression = SQLiteSwift.Expression
 
 private struct MigrationDB {
   static let table = Table("schema_migrations")
   static let version = Expression<Int64>("version")
 }
 
-/// Interface for managing migrations for a SQLite database accessed via `SQLite.swift`.
+/// Interface for managing migrations for a SQLite database accessed via `SQLiteSwift`.
 public struct SQLiteMigrationManager {
-  /// The `SQLite.swift` database `Connection`.
+  /// The `SQLiteSwift` database `Connection`.
   fileprivate let db: Connection
 
   /// All migrations discovered by the receiver.
@@ -189,7 +189,7 @@ extension Bundle {
   }
 }
 
-/// The `Migration` protocol is adopted in order to provide migration of SQLite databases accessed via `SQLite.swift`
+/// The `Migration` protocol is adopted in order to provide migration of SQLite databases accessed via `SQLiteSwift`
 public protocol Migration: CustomStringConvertible {
   /// The numeric version of the migration.
   var version: Int64 { get }

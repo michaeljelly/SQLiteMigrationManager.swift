@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 @testable import SQLiteMigrationManager
-import SQLite
+import SQLiteSwift
 
 
 final class SQLiteMigrationManagerTests: XCTestCase {
@@ -339,7 +339,7 @@ extension SQLiteMigrationManagerTests {
 
 struct TestDB {
   static let table = Table("test_table")
-  static let column = SQLite.Expression<Int>("key")
+  static let column = SQLiteSwift.Expression<Int>("key")
 }
 
 struct TestMigration: Migration {

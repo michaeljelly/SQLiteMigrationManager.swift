@@ -1,5 +1,5 @@
 import Foundation
-import SQLite
+import SQLiteSwift
 import SQLiteMigrationManager
 
 struct Database {

@@ -11,7 +11,7 @@
          location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj">
+         location = "group:Carthage/Checkouts/SQLiteSwift/SQLiteSwift.xcodeproj">
       </FileRef>
    </Group>
    <FileRef

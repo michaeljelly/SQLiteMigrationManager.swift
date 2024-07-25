@@ -1,6 +1,6 @@
 import Foundation
 import SQLiteMigrationManager
-import SQLite
+import SQLiteSwift
 
 struct SeedDB: Migration {
   var version: Int64 = 20160119131206685

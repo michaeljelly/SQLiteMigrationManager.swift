@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SQLiteMigrationManager.swift.svg?style=flat)](http://cocoapods.org/pods/SQLiteMigrationManager.swift)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-SQLiteMigrationManager.swift is a schema management system for [SQLite.swift](https://github.com/stephencelis/SQLite.swift). It is heavily inspired by [FMDBMigrationManager](https://github.com/layerhq/FMDBMigrationManager).
+SQLiteMigrationManager.swift is a schema management system for [SQLiteSwift](https://github.com/hosy/SQLiteSwift). It is heavily inspired by [FMDBMigrationManager](https://github.com/layerhq/FMDBMigrationManager).
 
 ## Concept
 
@@ -56,7 +56,7 @@ Swift based migrations can be implemented by conforming to the `Migration` proto
 ```swift
 import Foundation
 import SQLiteMigrationManager
-import SQLite
+import SQLiteSwift
 
 struct SwiftMigration: Migration {
   var version: Int64 = 2016_01_19_13_12_06
