@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SQLiteSwift.swift",
+        "repositoryURL": "https://github.com/hosy/SQLiteSwift",
+        "state": {
+          "branch": "master",
+          "revision": "1ba6e03d0f3bc9473ea815753f6174b50d2d0dd9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
